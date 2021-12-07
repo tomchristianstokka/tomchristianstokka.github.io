@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background: #011023;
+  color: #fff;
+  line-height: 1.6;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+h1 {
+  font-size: 8.6em;
+  font-family: 'Montserrat',sans-serif;
+  margin: 8px;
+  line-height: 120px;
+  align-items: left;
+  text-align: left;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: Helvetica, sans-serif
+}
+
+p {
+  margin: 8px 90px 32px;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.h1-outline {
+  font-size: 10.8em;
+  font-family: 'Montserrat',sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke:1px #D14768;
+  margin: 6px;
+  line-height: 96px;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.grid-container-02 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  background-color: #202020;
+}
+
+.grid-container-03 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  background-color: #E0EBF2;
+}
+
+.grid-container-04 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  background-color: #0A162E;
+}
+
+.grid-container-05 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  background-color: #2A544E;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: right;
+}
+
+.navbar ul li {
+  margin: 0 1rem;
+  padding: 1rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #f4f4f4;
+  transition-duration: 500ms;
+  font-family: 'Zilla Slab', serif;
+}
+
+.navbar ul li a:hover {
+  color: #00ADDA;
+  font-size: 0.8rem;
+}
+
+.name {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: left;
+}
+
+.button-02 {
+  border: solid 2px white;
+  color: white;
+  border-radius: 6px;
+  padding: 10px 16px;
+}
+
+.button-03 {
+  border: solid 2px #04395E;
+  color: #04395E;
+  border-radius: 6px;
+  padding: 10px 16px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
